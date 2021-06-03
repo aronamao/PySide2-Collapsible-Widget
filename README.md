@@ -1,4 +1,4 @@
-# PySide2 Collapsible Widget
+# PySide2 Collapsible Widget/ frameLayout
 
 Simple collapsible widget for PySide2, made to mimic Maya's native GUI
 
