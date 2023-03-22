@@ -15,6 +15,7 @@ class Header(QtWidgets.QWidget):
         self.content = content_widget
         self.expand_ico = QtGui.QPixmap(":teDownArrow.png")
         self.collapse_ico = QtGui.QPixmap(":teRightArrow.png")
+        self.setSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Fixed)
 
         stacked = QtWidgets.QStackedLayout(self)
         stacked.setStackingMode(QtWidgets.QStackedLayout.StackAll)
